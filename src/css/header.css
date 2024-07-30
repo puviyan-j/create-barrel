@@ -1,0 +1,119 @@
+
+a{
+    color: #222;
+}.main-header{
+    box-sizing: border-box;
+    width: 100vw;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 22px 15px;
+}
+.main-header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-right: 22px;
+}
+.input{
+    width: 270px;
+    font-family: inherit;
+    overflow: visible;
+    line-height: inherit;
+    outline: 1px solid #fca600!important;
+    font-size: 16px;
+    margin: 0;
+    padding: .625em 3em .625em 1em;
+}
+.logo{
+    font-size: 48px;
+}
+.logo a{
+    text-decoration: none;
+    font-style: none;
+    color: #000;
+}
+.person,.location,.heart,.cart{
+    font-size: 22px;
+    padding: 10px 16px;
+    margin: 2px 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.count{
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.order{
+    font-size: 14px;
+}
+.amp{
+    padding: 0 3px;
+}
+.offer-name{
+    padding: 3px 0;
+    display: flex;
+    justify-content: center;
+}
+.offer{
+    display: flex;
+    list-style: none;
+}
+.offer li{
+    padding: 10px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #222;
+}
+.offer li:nth-child(1){
+    font-weight: bold;
+}
+
+.nav-ul{
+    background-color: #000;
+    display: flex;
+    list-style: none;
+    color: #fff;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+.nav-ul li{
+padding: 10px 0;
+font-size: 14px;
+text-transform: capitalize;
+font-weight:bold ;
+}
+.nav-ul li:nth-last-child(2){
+    color: red;
+    text-transform: uppercase;
+
+}
+.main-offer{
+    text-align: center;
+    padding: 14px 20px;
+}
+.main-offer-1{
+    font-family:  sans-serif;
+    color: #222;
+    display: inline-block;
+    transition: all .5s;
+    font-weight: 600 !important;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    border: 1.5px solid #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin: 0 5px;
+}
+.main-offer-2{
+    display: inline-block;
+    font-size: 15px;
+}

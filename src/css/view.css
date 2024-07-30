@@ -1,0 +1,9 @@
+.prodect{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}

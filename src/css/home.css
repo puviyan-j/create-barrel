@@ -1,0 +1,279 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: content-box;
+    overflow-x: hidden;
+  }
+  
+  .box {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .absul {
+    position: absolute;
+  }
+  
+  .mainvideo {
+    width: 100%;
+    object-fit: cover;
+  
+  }
+  
+  .renew__medium {
+    --webfont-primary: "Crate Helvetica", "Helvetica Neue", Helvetica, Arial;
+    color: #fff !important;
+    font-size: calc(27.34px + (38.44 - 27.34) * ((100vw - 1024px) / (1440 - 1024)));
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    margin: -1em 0 .6em 0;
+  }
+  
+  .crate-bold {
+  
+    font-family: var(--webfont-primary, sans-serif);
+    text-align: center !important;
+    color: #222;
+    display: inline-block;
+    background-color: #fff;
+    transition: all .5s;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    padding: 0.59027vw 1.97916vw;
+    border: 1.5px solid #fff;
+    font-size: calc(11px + (15.5 - 11) * ((100vw - 1024px) / (1440 - 1024)));
+    line-height: 1.5;
+    letter-spacing: .17vw;
+    text-transform: uppercase;
+  }
+  .hr{
+    display:inline-block;
+     margin-left: 0%; 
+     margin-bottom: 10px;; 
+     width: 17%;
+      border: 1px solid #000;
+  }
+  
+  video {
+    width: 100%;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .col1 {
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  
+  
+  .cms-black {
+    color: #222 !important;
+  }
+  
+  .cms1-black {
+    background-color: #222;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+  }
+  
+  .box {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+  }
+  
+  .kitchen_sub {
+    top: 11%;
+    left: 4%;
+    text-align: center;
+  }
+  
+  .crate-secondary {
+    font-family: "ITC Century Book", Georgia, serif !important;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    color: #222 !important;
+    font-size: calc(11px + (15.5 - 11) * ((100vw - 1024px) / (1440 - 1024)));
+    line-height: 1.5;
+    letter-spacing: 0;
+    margin: -.25em 0 0 0;
+  }
+  
+  .kitchen-sub2 {
+    top: 20%;
+    right: 5%;
+  }
+  
+  .glass {
+    width: 100%;
+    top: 10%;
+    text-align: center;
+  }
+  .glass2{
+    top: 30%;
+    left: 4%;
+  }
+  .crate-roman{
+    text-align: right!important;
+    box-sizing: content-box;
+    margin: .3em 0 .6em;
+    font-weight: 400;
+    color: #222!important;
+    font-family: "WTC Our Bodoni W05 Italic",Georgia,serif !important;
+    font-size: calc(14px + (19.68 - 14) * ((100vw - 1024px) / (1440 - 1024)));
+    line-height: 1.8;
+  }
+  .future{
+    top: 10%;
+    right:3%;
+  }
+  .Fcs img{
+    width: 100%;
+  }
+  .Fcs {
+    width: 3%;
+    height: auto;
+    bottom: 4%;
+    left: 2%;
+  }
+  .trend{
+    top:12%;
+    right: 10%;
+    text-align: center;
+    
+  }
+  .sofa{
+    top:10%;
+    left:4%;
+  }
+  .sofa-1{
+    bottom:50%;
+    left: 7.5%;
+  }
+  .dining{
+    top: 11%;
+    left: 3.7%;
+  }
+  .dining-1{
+    top: 39%;
+    left: 21%;
+  }
+  .bedroom{
+    top: 12%;
+    right: 4%;
+    text-align: right;
+  }
+  .decor{
+    top:11%;
+    left: 4%;
+  }
+  .decor1{
+    top: 16%;
+    left: 51%;
+  }
+  .guid{
+    top: 10%;
+    right: 3%;
+    text-align: right;
+  }
+  .guid1{
+    top: 9%;
+    left: 4%;
+  }
+  .test {
+    display: flex;
+    width: 99vw;
+    height: auto;
+  }
+  
+  .test .video {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .test .img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .test .video video{
+    width: 100%;
+    height:100%;
+    object-position: center;
+  }
+  .test-img{
+     bottom: 30%;
+     left: 50%;
+     transform: translateX(-50%);
+    width: 40%;
+  }
+  .test2{
+    bottom: 8%;
+   text-align: center;
+   left: 7%;
+  
+  }
+  .tc{
+   margin-bottom: 10%;
+   line-height: 1.5;
+    font-size: calc(15px + (19.68 - 14) * ((100vw - 1024px) / (1440 - 1024)));
+  }
+  .storage{
+  top: 19%;
+  width: 100%;
+  text-align: center;
+  }
+  .storage1{
+  top:47%;
+  right: 4.5%;
+  }
+  .dinnerwear{
+    text-align: right;
+    top:12%;
+    right: 4%;
+  }
+  .dinnerwear1{
+    bottom: 8%;
+    right: 76%;
+  }
+  .premium{
+    top: 10%;
+    width: 45%;
+    text-align: center;
+    left: 8%;
+  
+  }
+  .premium-img{
+    width: 50%;
+  }
+  .roman-white{
+    text-align: center!important;
+    box-sizing: content-box;
+    margin: .3em 0 .6em;
+    font-weight: 400;
+    color: #fff!important;
+    font-family: "WTC Our Bodoni W05 Italic",Georgia,serif !important;
+    font-size: calc(14px + (19.68 - 14) * ((100vw - 1024px) / (1440 - 1024)));
+    line-height: 1.8;
+  }
+  .registry{
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .amp-img{
+    width: 10%;
+    margin-bottom: 3%;
+  }
